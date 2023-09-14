@@ -17,6 +17,7 @@ import Login from "./pages/Login"
 const App = () => {
   const [currentUser, setCurrentUser] = useState(mockUsers[0])
   const [apartments, setApartments] = useState(mockApartments)
+
   
   return (
     <>    
